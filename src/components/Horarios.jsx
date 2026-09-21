@@ -60,28 +60,28 @@ export default function Horarios() {
             {/* Activities Plan Posters - Followed one another */}
             <div className="activities-posters">
                 <a 
-                    href="/1-periodo.jpeg" 
+                    href={`${import.meta.env.BASE_URL}1-periodo.jpeg`} 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="activity-poster-link"
                     title="Clique para abrir imagem em tamanho real"
                 >
                     <img 
-                        src="/1-periodo.jpeg" 
+                        src={`${import.meta.env.BASE_URL}1-periodo.jpeg`} 
                         alt="Plano de Atividades 26/27 - 1º e 2º Período" 
                         className="activity-poster-img"
                     />
                 </a>
 
                 <a 
-                    href="/3-periodo.jpeg" 
+                    href={`${import.meta.env.BASE_URL}3-periodo.jpeg`} 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="activity-poster-link"
                     title="Clique para abrir imagem em tamanho real"
                 >
                     <img 
-                        src="/3-periodo.jpeg" 
+                        src={`${import.meta.env.BASE_URL}3-periodo.jpeg`} 
                         alt="Plano de Atividades 26/27 - 3º Período e Dança Desportiva" 
                         className="activity-poster-img"
                     />

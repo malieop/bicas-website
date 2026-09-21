@@ -53,7 +53,7 @@ export default function Home({ onNavigateToClass }) {
             <section className="hero-banner-section" aria-label="Apresentação Bicas">
                 <div className="hero-banner-wrapper">
                     <img 
-                        src="/capa sem logo_bicas.jpg" 
+                        src={`${import.meta.env.BASE_URL}capa sem logo_bicas.jpg`} 
                         alt="Edifício da Bicas - Associação Cultural" 
                         className="hero-banner-img"
                     />
